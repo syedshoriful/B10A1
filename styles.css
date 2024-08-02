@@ -42,6 +42,7 @@ nav h2{
     border-radius: 8px;
     padding: 21px 24px;
     margin-top: 50px;  
+    font-size: 20px;
 }
 .bg-maker{
     background-image: url("/B10A1-Challenge-Begins/assets/Hero-bg.png");
@@ -57,6 +58,8 @@ nav h2{
     margin-top: 26px ; 
 }
 .style-scnd-div{
-    margin: 26px 221px 45px 221px;
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
 
 }
