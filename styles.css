@@ -60,6 +60,48 @@ nav h2{
 .style-scnd-div{
     width: 900px;
     text-align: center;
-    margin: 0 auto;
+    margin: 0px auto;
 
+}
+/* second-page */
+.scnd-h1{
+    font-weight: 900;
+    font-size: 32px;
+}
+section div p{
+    font-weight:250;
+}
+.section-1{
+    background-color: rgb(247, 247, 250) ;
+    margin-top: 74px;
+    margin-right: 148px;
+    margin-left: 320px;
+    height: 1300px;
+    width: 1140px;
+    border-radius: 16px;
+}
+.btn-lrn-more{
+    height: 47px;
+    width: 171px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white ;
+}
+.mini-banner{
+    background-color: white;
+    margin: 0 auto;
+    height: 336px;
+    width: 946px;
+    border-radius: 16px;
+}
+.h2-p2{
+    padding: 48px;
+
+}
+.section-full-div{
+    padding-top: 70px;
+}
+.style-3div{
+    margin-top:48px ;
 }
