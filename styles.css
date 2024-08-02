@@ -46,7 +46,7 @@ nav h2{
 }
 .bg-maker{
     background-image: url("/B10A1-Challenge-Begins/assets/Hero-bg.png");
-    width: 1920px;
+    width: 1895px;
     height: 652px;
 }
 .header-heading{
@@ -76,7 +76,7 @@ section div p{
     margin-top: 74px;
     margin-right: 148px;
     margin-left: 320px;
-    height: 1300px;
+    height: 1400px;
     width: 1140px;
     border-radius: 16px;
 }
@@ -90,7 +90,9 @@ section div p{
 }
 .mini-banner{
     background-color: white;
-    margin: 0 auto;
+    
+    margin: 0 auto; 
+    margin-bottom: 32px;
     height: 336px;
     width: 946px;
     border-radius: 16px;
@@ -104,4 +106,49 @@ section div p{
 }
 .style-3div{
     margin-top:48px ;
+}
+/* section 2 */
+.scnd-section{
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+    margin-top: 268px;
+    text-align: center;
+}
+.scnd-section-h2{
+    font-weight: 900;
+    font-size: 32px;
+}
+.scnd-section-p{
+    font-weight: 300;
+    font-size: 16px;
+}
+.scnd-section-div{
+    display: flex;
+    justify-content: center;
+    padding: 32px 32px;
+    border: 1px solid rgb(218, 216, 216);
+    margin-top: 48px ;
+    margin-left: 355px;
+    /* margin: 0 auto; */
+    width: 1080px;
+    height: 550px;
+    border-radius: 16px;  
+}
+.youtube{
+    height: 550px;
+    width: 1076px;
+    border-radius: 16px;
+    overflow: hidden;
+    z-index: 1;
+
+}
+/* section 3 */
+.thrd-section{
+    text-align: center;
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+    margin-top: 151px;
+    
 }
