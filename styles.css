@@ -1,4 +1,7 @@
-
+/* For scrooling */
+html{
+    scroll-behavior: smooth;
+}
 /* font style */
 .azeret-mono{
   font-family: "Azeret Mono", monospace;
@@ -76,7 +79,7 @@ section div p{
     background-color: rgb(247, 247, 250) ;
     margin-top: 74px;
     margin-right: 148px;
-    margin-left: 320px;
+    margin-left: 350px;
     height: 1400px;
     width: 1140px;
     border-radius: 16px;
@@ -195,6 +198,8 @@ section div p{
     width: 1140px;
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/B10A1-Challenge-Begins/assets/handshake.jpg");
     background-position: center;
+    border: none;
+    border-radius: 16px;
    
 }
 .section-h1{
@@ -203,11 +208,14 @@ section div p{
     color: white;
     display: flex;
     justify-content: center;
+    margin-top: 54px;
+    margin-bottom: 0px;
 }
 .section-p{
     width: 606px;
     height: 52px;
     color: rgb(219, 214, 214);
+    text-align: center;
 
 }
 .btn-suggest{
@@ -247,4 +255,13 @@ section div p{
 .icons-text{
     display: flex;
     justify-content: space-between;
+}
+.commitment{
+    font-size: 30;
+    font-weight: 700;
+    margin-top: 10px;
+}
+/* for scrooling */
+#footer{
+    
 }
