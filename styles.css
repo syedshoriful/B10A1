@@ -11,6 +11,7 @@
     justify-content: center;
 }
 
+
 /* nav style */
 .first-header{
     display: flex;
@@ -151,4 +152,99 @@ section div p{
     margin: 0 auto;
     margin-top: 151px;
     
+}
+/* 3 box  */
+.three-box-main-div{
+    margin-top: 48px;
+}
+.outer-box-moedel{
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    margin-right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1-color{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.box2-color{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.box3-color{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.inner-box1{
+    width: 284px;
+    height: 219px;
+    
+}
+/* I need support portion */
+.section-class{
+    display: flex;
+    justify-content: center;
+    margin-top: 49px;
+    border-radius: 16px;
+
+}
+.external-div{
+    height: 313px;
+    width: 1140px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/B10A1-Challenge-Begins/assets/handshake.jpg");
+    background-position: center;
+   
+}
+.section-h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.section-p{
+    width: 606px;
+    height: 52px;
+    color: rgb(219, 214, 214);
+
+}
+.btn-suggest{
+    width: 120px;
+    height: 57px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+.text-decoration{
+    height: 57px;
+    width: 548px;
+    background-color: white;
+    border-radius: 8px;
+    margin-right: 16px;
+    border: none;
+}
+/* Footer section */
+.footer-section{
+    width: 1595px;
+    height: 30px;
+    background-color: rgba(13, 19, 33, 0.03);
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-top: 43px;
+}
+.icons{
+    height: 36px;
+    width: 157.01px;
+    display: flex;
+    justify-content: space-between;
+}
+.icons-text{
+    display: flex;
+    justify-content: space-between;
 }
